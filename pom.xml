@@ -11,6 +11,7 @@
 	<groupId>com.project.manjuDOE</groupId>
 	<artifactId>banking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging> <!-- Added packaging element -->
 	<name>banking</name>
 	<description>Banking Microservice project</description>
 	<properties>
