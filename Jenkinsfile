@@ -1,11 +1,14 @@
 pipeline {
+    agent any
+    /*
     agent { 
         label 'Slave1' 
     }
+    */
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
-        maven "maven-3.8.7"
+        maven "maven-3.9.6"
     }
 
     environment {    
@@ -16,7 +19,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git url: 'https://github.com/manju65char/star-agile-banking-finance.git'
+                git url: 'https://github.com/manju65char/banking_web_application.git'
             }
         }
         stage('Maven Build') {
