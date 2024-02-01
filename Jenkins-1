@@ -16,7 +16,7 @@ environment{
            stage('cloning the project or SCM checkout'){
                 steps{
                  // here we are going write codes or commands 
-                 git branch: 'development', credentialsId: 'git_credentials', url: 'https://github.com/manju65char/banking_web_application.git'
+                 git branch: 'master', credentialsId: 'git_credentials', url: 'https://github.com/manju65char/banking_web_application.git'
                 }
       
            }
