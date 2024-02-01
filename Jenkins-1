@@ -2,7 +2,7 @@ pipeline{
 agent any // by default the projects build in the jenkins master server , in slave or node server 
 
 tools{ 
- maven maven-3.9.6      // make sure the maven version which you specified in tools/maven installations -> maven-3.9.6
+ maven "maven-3.9.6"     // make sure the maven version which you specified in tools/maven installations -> maven-3.9.6
 }
 
 environment{
