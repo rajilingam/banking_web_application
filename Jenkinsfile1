@@ -65,6 +65,7 @@ pipeline {
                 //-----------------end approval prompt------------
             }
         }
+        /*
         stage('Deploy to Kubernetes Cluster') {
             steps {
                 script {
@@ -72,5 +73,6 @@ pipeline {
 		}
             }
         }
+       */
     }
 }
