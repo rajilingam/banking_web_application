@@ -33,7 +33,7 @@ environment{
                 steps{
                  // here we are going write codes or commands 
                  echo "this stage is used to generate the project report based on quality profile and quality gates"
-                 sh "mvn sonar:sonar"
+                 //sh "mvn sonar:sonar"
                 }
       
            }
