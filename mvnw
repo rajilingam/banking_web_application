@@ -1,4 +1,9 @@
 #!/bin/sh
+
+#!/bin/sh
+export MAVEN_OPTS="--add-opens=java.base/java.util=ALL-UNNAMED"
+mvn $@
+
 # ----------------------------------------------------------------------------
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
